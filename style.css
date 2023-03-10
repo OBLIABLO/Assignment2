@@ -1,0 +1,149 @@
+body{
+    background-color: rgb(22, 22, 22);
+    border: 15px solid rgb(0, 0, 0);
+}
+
+.title{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 800;
+}
+
+.image img{
+    border-bottom: 20px solid rgb(44, 44, 44);
+    border-top: 20px solid  rgb(44, 44, 44);
+}
+.result{
+    color: aliceblue;
+    font-size: 25px;
+    width: 100%;
+    margin-left: 5px;
+}
+.contain{
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    
+}
+.container{
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 70%;
+}
+.col-md-6{
+margin-top: 20px;
+color: aliceblue;
+font-weight: 700;
+}
+.nav{
+    width: 100%;  
+    background-color: rgb(27, 27, 27);
+}
+.head{
+    font-size: 35px;
+    color: aliceblue;
+    text-align: center;
+    width: 100%;
+    font-weight: 800;
+}
+.logo{
+    margin-left: 10px;
+}
+.content{
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 30px;
+}
+@media screen and (max-width: 740px) {
+    .head{
+        font-size: 28px;
+    }
+    .title{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .head{
+        font-size: 21px;
+    }
+    .logo img{
+        width: 50px;
+    }
+    .title{
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 440px) {
+    .head{
+        font-size: 16px;
+    }
+    .logo img{
+        width: 40px;
+    }
+    .title{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .head{
+        font-size: 15px;
+    }
+    .title{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .result{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 730px) {
+    .result{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 660px) {
+    .result{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .result{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 530px) {
+    .result{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 460px) {
+    .result{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .result{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .result{
+        font-size: 6px;
+    }
+}
+@media screen and (max-width: 370px) {
+    .result{
+        font-size: 4px;
+    }
+    .title{
+        font-size: 14px;
+    }
+}
