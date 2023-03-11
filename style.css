@@ -23,8 +23,8 @@ body{
 .contain{
     background-color: transparent;
     border: 2px solid rgb(255, 255, 255);
-    border-radius: 20px;
-    width: 40%;
+    border-radius: 10px;
+    width: 60%;
     margin: 0 auto;
     margin-bottom: 50px;
     
@@ -79,6 +79,9 @@ font-weight: 700;
     .title{
         font-size: 24px;
     }
+    .container{
+        width: 90%;
+    }
 }
 @media screen and (max-width: 440px) {
     .head{
@@ -104,46 +107,27 @@ font-weight: 700;
         font-size: 20px;
     }
 }
-@media screen and (max-width: 730px) {
-    .result{
-        font-size: 18px;
-    }
-}
-@media screen and (max-width: 660px) {
-    .result{
-        font-size: 16px;
-    }
-}
 @media screen and (max-width: 600px) {
     .result{
-        font-size: 14px;
+        font-size: 20px;
     }
-}
-@media screen and (max-width: 530px) {
-    .result{
-        font-size: 12px;
-    }
-}
-@media screen and (max-width: 460px) {
-    .result{
-        font-size: 10px;
+    .contain{
+        width: 80%;
     }
 }
 @media screen and (max-width: 400px) {
     .result{
-        font-size: 8px;
+        font-size: 20px;
     }
-}
-@media screen and (max-width: 450px) {
-    .result{
-        font-size: 6px;
+    .contain{
+        width: 90%;
     }
 }
 @media screen and (max-width: 370px) {
     .result{
-        font-size: 4px;
+        font-size: 17px;
     }
-    .title{
-        font-size: 14px;
+    .contain{
+        width: 90%;
     }
 }
